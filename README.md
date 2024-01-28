@@ -10,3 +10,5 @@
 npm install
 npm run test:cypress
 ```
+
+- Best with Gherkin Syntax Highlighter
