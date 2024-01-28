@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BDD Playground : Sign up</title>
+    <link rel="stylesheet" href="../../global.css" />
+    <link rel="stylesheet" href="../signup.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Let me know your profile.</h1>
+      <form action="/signup/verification">
+        <label>
+          <span>Name</span>
+          <input
+            id="input-name"
+            type="text"
+            name="name"
+            required
+            data-testid="input-name"
+          />
+        </label>
+        <label>
+          <span>Age (Greater than 14)</span>
+          <input
+            id="input-age"
+            type="number"
+            name="age"
+            required
+            data-testid="input-age"
+          />
+        </label>
+        <button
+          id="button-submit"
+          type="submit"
+          disabled
+          data-testid="button-submit"
+        >
+          Next
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

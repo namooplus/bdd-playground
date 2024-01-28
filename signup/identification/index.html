@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BDD Playground : Sign up</title>
+    <link rel="stylesheet" href="../../global.css" />
+    <link rel="stylesheet" href="../signup.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Generate your own id.</h1>
+      <form action="/signup/profile">
+        <label>
+          <span>ID (Greater than 4 characters)</span>
+          <input
+            id="input-id"
+            type="text"
+            name="id"
+            required
+            data-testid="input-id"
+          />
+        </label>
+        <label>
+          <span>Password (Greater than 7 characters)</span>
+          <input
+            id="input-password"
+            type="password"
+            name="password"
+            required
+            data-testid="input-password"
+          />
+        </label>
+        <label>
+          <span>Confirm Password</span>
+          <input
+            id="input-password-confirm"
+            type="password"
+            name="password-confirm"
+            required
+            data-testid="input-password-confirm"
+          />
+        </label>
+        <button
+          id="button-submit"
+          type="submit"
+          disabled
+          data-testid="button-submit"
+        >
+          Next
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

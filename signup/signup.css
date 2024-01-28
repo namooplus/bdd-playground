@@ -1,0 +1,53 @@
+h1 {
+  font-size: 30px;
+  color: rgb(40, 40, 40);
+}
+
+label {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  outline: none;
+  border: 2px solid gray;
+  background: #ffffff80;
+}
+
+input:focus {
+  border: 2px solid black;
+  background: #ffffff;
+}
+
+#button-submit {
+  border: none;
+  outline: none;
+
+  padding: 10px 20px;
+
+  background-color: rgb(1, 162, 162);
+
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+
+  cursor: pointer;
+}
+
+#button-submit:disabled {
+  opacity: 0.5;
+
+  cursor: not-allowed;
+}

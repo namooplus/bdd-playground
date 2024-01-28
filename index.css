@@ -1,0 +1,14 @@
+h1 {
+  font-size: 30px;
+  color: rgb(40, 40, 40);
+}
+
+#anchor-signup {
+  padding: 10px 20px;
+
+  background-color: rgb(1, 162, 162);
+
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}

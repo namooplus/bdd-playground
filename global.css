@@ -1,0 +1,28 @@
+body {
+  height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+
+  background-image: url("../../public/images/background.jpg");
+  background-size: cover;
+}
+
+#content {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffffffaa;
+  backdrop-filter: blur(10px);
+}

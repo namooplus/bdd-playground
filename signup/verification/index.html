@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BDD Playground : Sign up</title>
+    <link rel="stylesheet" href="../../global.css" />
+    <link rel="stylesheet" href="../signup.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Are you human?</h1>
+      <p id="sentence">I'm not a robot.</p>
+      <form action="/signup/complete">
+        <label>
+          <span>Type the sentence above correctly.</span>
+          <input
+            id="input-sentence"
+            type="text"
+            name="sentence"
+            required
+            data-testid="input-sentence"
+          />
+        </label>
+        <button
+          id="button-submit"
+          type="submit"
+          disabled
+          data-testid="button-submit"
+        >
+          Next
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
